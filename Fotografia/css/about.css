@@ -1,0 +1,191 @@
+body{
+    margin:0;
+    background-color: rgb(209, 209, 209);
+}
+
+.cajapadre{
+    display: flex;
+    margin: 2.5%;
+}
+
+body .caja-persona{
+background-color: white;
+width:60.5%;
+height: 100%;
+margin-right: 2%;
+}
+
+body .caja-persona .arriba .imagen img{
+    width: 100%;
+    position: relative;
+    opacity: 80%;
+}
+
+body .caja-persona .arriba .texto1 .nombre{
+    font-size: 215%;
+    position: absolute;
+    bottom: 0;
+    top:53.8%;
+    left:34.5%;
+    transform: translate(-50%,-50%);
+    width: 62%;
+    color:#e7e7e7;
+}
+
+body .caja-persona .info .caja1 {display: flex;}
+
+body .caja-persona .info .caja2 {display: flex;}
+
+body .caja-persona .info .caja3 {display: flex;}
+
+body .caja-persona .info .caja4 {display: flex;}
+
+body .caja-persona .info img{
+    object-fit: cover;
+    align-items: center;
+    height: 1%;
+    width: 4.5%;
+    margin: 3.5% 5%;
+}
+
+.info1{
+    color: rgb(87, 87, 87);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linea1{ opacity: 15%; width: 90%;}
+
+body .caja-persona .titulos{ display: flex;}
+
+body .caja-persona .titulos img{
+    object-fit: cover;
+    align-items: center;
+    height: 5.5%;
+    width: 4.5%;
+    margin: 3% 5%;
+}
+
+body .caja-persona .titulos span{
+    color: rgb(61, 61, 61);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:1.5%;
+    font-size: 165%;
+    font-weight: 100;
+}
+
+body .caja-persona .izquierda{
+    margin: 5%;
+    line-height: 250%;
+}
+.info2{
+    color: rgb(78, 78, 78);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 125%;
+}
+
+  .progress-bar {
+    height: 23.5px;
+    background-color: #777777;
+    width: 0%;
+    text-align: center;
+    line-height: 23.5px;
+    color: rgb(235, 235, 235);
+    transition: width 0.5s;
+    border-radius: 150px;
+  }
+  
+  /*//////////////////////////     DERECHA    ////////////////////////*/
+
+
+
+  .titulo2{display: flex;}
+
+.titulo2 img{width: 6.5%; height: 8.5%; margin: 4% 3%;}
+
+.titulo3{
+    font-size: 235%;
+    margin-top:5.3%;
+    color: rgb(116, 116, 116);
+}
+
+.subtitulo1{
+    font-size: 145%;
+    margin-left: 6.5%;
+    margin-top: 1.5%;
+    color: rgb(61, 61, 61);
+}
+
+.fecha{
+    margin:2% 6%;
+    color: rgb(116, 116, 116);
+}
+.fecha img{
+    width: 3%;
+}
+
+.fecha span{
+    font-size: 140%;
+}
+
+.fecha .actual{
+    color: rgb(255, 255, 255);
+    background-color: #777777;
+    border-radius: 10px;
+    font-size: 90%;
+    padding: 0.7%;
+}
+
+.texto2{
+    margin-left: 6%;
+    margin-right: 5%;
+}
+
+.derecha-abajo{ background-color: rgb(255, 255, 255);}
+
+footer .redes img{
+    width: 2.5%;
+    padding: 2% 0 1%;
+}
+
+footer{ 
+    background-color:#777777;
+    text-align: center;
+    padding:2% 0 1.5% 0;
+    font-size: 110%;
+}
+
+.derecha-arriba {
+  padding-bottom: 6.5%;
+    background-color: white;
+    margin-bottom: 6.5%;
+}
+
+
+ /* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+ @media (max-width:450px){
+    .cajapadre{
+        display: flex;
+        flex-direction: column;
+    }
+ body .caja-persona{
+    background-color: white;
+    width:100%;
+    height: 100%;
+    margin-bottom: 6.5%;
+    }
+    
+    body .caja-persona .arriba .texto1 .nombre{
+        top:45.8%;
+        left:36.5%;
+    }
+    
+    .derecha-arriba{
+        width: 100%;
+        height: 100%;
+    }
+
+    .derecha-abajo{
+        margin-bottom: 5%;
+    }
+}
